@@ -19,6 +19,26 @@ npm run dev
 ```
 This will start the development server at http://localhost:3000.
 
+## Important Note
+
+Ensure you replace the git origin to yours. To do so, 
+
+* Open your terminal or command prompt and navigate to the local repository where the origin is located.
+
+* Type the following command, replacing <remote-name> with the name of the origin you want to remove:
+
+```javascript
+git remote remove origin
+```
+* Verify that the origin was removed by running the following command: 
+```javascript
+git remote -v 
+```
+* Add your git remote url 
+```javascript 
+git remote add <remote-name>
+```
+
 ```javascript
 To build the application for production, you can run:
 npm run build
