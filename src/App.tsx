@@ -1,10 +1,11 @@
 import React from 'react';
-import SelectLanguage from './features/language/SelectLanguage';
 
 const App:React.FC = ():JSX.Element => {
   return (
     <div className="min-h-screen flex justify-center items-center">
-      <SelectLanguage />
+      <h1 className="text-3xl font-bold text-blue-600">
+        Biolerplate for React + Typescript + Tailwind 
+      </h1>
     </div>
   );
 }
